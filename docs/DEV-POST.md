@@ -3,7 +3,7 @@ title: "GRIND404: I turned my hatred of LeetCode into a playable arcade game"
 published: false
 description: "A satirical arcade that scrapes real LeetCode problems, subverts them into parody with Gemini, and feeds your answers to a judge that was rigged against you from the start."
 tags: weekendchallenge, googleai, showdev, webdev
-cover_image: "./gameplay.gif"
+cover_image: "https://raw.githubusercontent.com/xbill9/passion/main/docs/gameplay.gif"
 ---
 
 *This is a submission for the [DEV Weekend Challenge: Passion Edition](https://dev.to/challenges/weekend-2026-07-09).*
@@ -22,7 +22,7 @@ GRIND404 scrapes **real, live LeetCode problems**, **subverts** them into parody
 
 You rack up points by being maximally cursed: `return true;`, hardcoding the test cases, DOSing the judge with `while(true){}`, negotiating the time complexity down to `O(vibes)`. The judge rejects all of it with escalating, passive-aggressive verdicts — and occasionally "accepts" your garbage just to hurt you.
 
-![GRIND404 gameplay](./gameplay.gif)
+![GRIND404 gameplay](https://raw.githubusercontent.com/xbill9/passion/main/docs/gameplay.gif)
 
 ## The Inspiration
 
@@ -45,8 +45,8 @@ I couldn't fix that in a weekend. But I could **make fun of it** in a weekend, a
 
 Here's a subverted round and one of the judge's verdicts:
 
-![A subverted problem](./02-problem.png)
-![The rigged judge rejects you anyway](./03-verdict.png)
+![A subverted problem](https://raw.githubusercontent.com/xbill9/passion/main/docs/02-problem.png)
+![The rigged judge rejects you anyway](https://raw.githubusercontent.com/xbill9/passion/main/docs/03-verdict.png)
 
 ## 🤖 Best Use of Google AI
 
