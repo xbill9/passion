@@ -1,0 +1,41 @@
+{
+  "rejections": [
+    "Wrong Answer: correct, but we didn't like your vibe.",
+    "Time Limit Exceeded — on your soul, not your code.",
+    "Runtime Error: passed 214/214 cases, rejected for insufficient passion.",
+    "Memory Limit Exceeded. Specifically, our memory of ever wanting to hire you.",
+    "Compilation Error: the compiler read your resume and left.",
+    "Output Limit Exceeded: too much cope in stderr.",
+    "Wrong Answer on test case 9,001 (hidden, unknowable, possibly fictional).",
+    "Accepted... psych. We went with someone who had more LeetCode energy.",
+    "Presentation Error: your semicolons lacked confidence.",
+    "TLE: your solution was O(n), we were looking for O(please just suffer).",
+    "Rejected. A senior engineer solved this in 4 lines in 2014 and we never forgot it.",
+    "Idempotency Violation: you were rejected here last week too.",
+    "Segmentation Fault (core dumped, dignity dumped).",
+    "Denied: the recruiter ghosted mid-verdict. Classic.",
+    "Wrong Answer: your code works, but does it 'move fast'? Does it 'break things'? Exactly."
+  ],
+  "rare_accepts": [
+    "ACCEPTED. Enjoy the dopamine. It is a lie and it will fade in 9 seconds.",
+    "ACCEPTED. Now do 149 more and maybe you'll feel employable.",
+    "ACCEPTED — beats 3% of submissions, which is somehow still a personality now."
+  ],
+  "rage_lines": [
+    "The recruiter has 'circled back'. It is a noose of the calendar.",
+    "A new 'Blind 75' just dropped. It is 340 problems long.",
+    "Someone in the discussion tab posted 'easy one-liner' with no explanation.",
+    "Your streak reset. The owl is disappointed. The owl was always disappointed.",
+    "The interviewer said 'we're a family' and then asked you to invert a tree.",
+    "Premium unlocked a hint. The hint is 'try harder'.",
+    "You solved it, but not in the intended way, so it doesn't count, spiritually."
+  ],
+  "ranks": [
+    {"min": 900, "title": "SUBVERSION OVERLORD", "line": "You have transcended the grind. LeetCode fears you now."},
+    {"min": 650, "title": "CERTIFIED MENACE", "line": "The judge filed a restraining order. Framed it. Beautiful."},
+    {"min": 400, "title": "PROFESSIONAL CHEESE ARTISAN", "line": "return true; and you never looked back."},
+    {"min": 200, "title": "FAANG REJECT (PROUD)", "line": "Rejected with style. That's the whole win, actually."},
+    {"min": 1, "title": "STILL GRINDING", "line": "You did some damage. The owl noticed. Keep hating."},
+    {"min": -10000, "title": "TRAITOR (YOU SOLVED THEM HONESTLY)", "line": "You actually tried to solve them. In THIS economy? Shameful."}
+  ]
+}

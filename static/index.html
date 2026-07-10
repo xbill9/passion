@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRIND404 — LeetCode Subversion Arcade</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💀</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">grind<span class="err">404</span></span>
+      <span class="tagline">the leetcode subversion arcade</span>
+    </div>
+    <div class="badges">
+      <span id="engine-badge" class="badge" title="How problems get subverted">engine: …</span>
+      <span id="source-badge" class="badge" title="Where this problem came from">source: …</span>
+    </div>
+  </header>
+
+  <!-- START -->
+  <main id="screen-start" class="screen active">
+    <div class="hero">
+      <h1>You hate LeetCode.</h1>
+      <p class="sub">Good. It's a game now.</p>
+      <p class="pitch">
+        Real problems get scraped and <em>subverted</em> into parody. You don't solve them —
+        you <strong>desecrate</strong> them. The rigged judge rejects you no matter what.
+        Score points by being maximally cursed. Solving one honestly is a penalty.
+      </p>
+      <button id="btn-start" class="btn primary">START THE GRIND</button>
+      <button id="btn-lb" class="btn ghost">leaderboard</button>
+      <p class="fineprint">18+ of pain per round. Not affiliated with, endorsed by, or liked by LeetCode.</p>
+    </div>
+  </main>
+
+  <!-- GAME -->
+  <main id="screen-game" class="screen">
+    <div class="hud">
+      <div class="hud-item">round <span id="round-num">1</span>/<span id="round-total">10</span></div>
+      <div class="hud-item">score <span id="score" class="pop">0</span></div>
+      <div class="rage">
+        <span>rage</span>
+        <div class="rage-bar"><div id="rage-fill" class="rage-fill"></div></div>
+        <span id="rage-pct">0%</span>
+      </div>
+    </div>
+
+    <section class="problem card">
+      <div class="problem-head">
+        <h2 id="p-title">Loading a fresh injustice…</h2>
+        <span id="p-diff" class="diff">—</span>
+      </div>
+      <p id="p-prompt" class="prompt">Subverting…</p>
+    </section>
+
+    <section class="answers">
+      <h3>Choose your crime</h3>
+      <div id="choices" class="choices"></div>
+      <div class="freeform">
+        <input id="freeform" type="text" maxlength="140"
+               placeholder="…or type your own cursed answer (e.g. return true;)" />
+        <button id="btn-freeform" class="btn small">submit heresy</button>
+      </div>
+    </section>
+
+    <section id="verdict" class="verdict card hidden">
+      <div class="stamp" id="verdict-stamp">REJECTED</div>
+      <p id="verdict-msg" class="verdict-msg"></p>
+      <p id="verdict-roast" class="verdict-roast"></p>
+      <p id="verdict-rage" class="verdict-rage"></p>
+      <div class="verdict-score">+<span id="verdict-points">0</span></div>
+      <button id="btn-next" class="btn primary">next injustice →</button>
+    </section>
+  </main>
+
+  <!-- END -->
+  <main id="screen-end" class="screen">
+    <div class="hero">
+      <div class="stamp big" id="end-rank">RANK</div>
+      <p id="end-line" class="sub"></p>
+      <p class="pitch">final score: <strong id="end-score">0</strong></p>
+      <div class="save-row">
+        <input id="player-name" type="text" maxlength="20" placeholder="handle for the wall of hate" />
+        <button id="btn-save" class="btn primary">post my rejection</button>
+      </div>
+      <button id="btn-again" class="btn ghost">grind again</button>
+    </div>
+  </main>
+
+  <!-- LEADERBOARD -->
+  <div id="lb-modal" class="modal hidden">
+    <div class="modal-box card">
+      <h2><span class="trophy">★</span> Wall of Glorious Rejection</h2>
+      <ol id="lb-list" class="lb-list"><li>loading…</li></ol>
+      <button id="btn-lb-close" class="btn ghost">close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    built in a weekend out of pure spite · <span class="mono">#weekendchallenge</span>
+  </footer>
+
+  <script src="/game.js"></script>
+</body>
+</html>

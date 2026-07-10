@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/
+.env
+app/data/leaderboard.json
+challenge-summary.md
+README.md

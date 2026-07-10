@@ -1,0 +1,21 @@
+services:
+  grind404:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Set to enable AI subversion (Best Use of Google AI). Leave empty for offline satire.
+      GEMINI_API_KEY: "${GEMINI_API_KEY:-}"
+      GEMINI_MODEL: "${GEMINI_MODEL:-gemini-2.5-flash}"
+      # Set LEETCODE_LIVE=0 to force the shipped offline problem set (air-gapped).
+      LEETCODE_LIVE: "${LEETCODE_LIVE:-1}"
+      ROUNDS_PER_GAME: "${ROUNDS_PER_GAME:-10}"
+      LEADERBOARD_PATH: "/data/leaderboard.json"
+    volumes:
+      # Persist the wall of glorious rejection across restarts (separate from
+      # the image's shipped data so we never shadow problems.json/verdicts.json).
+      - grind-data:/data
+    restart: unless-stopped
+
+volumes:
+  grind-data:
