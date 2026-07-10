@@ -3,7 +3,7 @@ title: "GRIND404: I turned my hatred of LeetCode into a playable arcade game"
 published: false
 description: "A satirical arcade that scrapes real LeetCode problems, subverts them into parody with Gemini, and feeds your answers to a judge that was rigged against you from the start."
 tags: weekendchallenge, googleai, showdev, webdev
-cover_image: ""
+cover_image: "./gameplay.gif"
 ---
 
 *This is a submission for the [DEV Weekend Challenge: Passion Edition](https://dev.to/challenges/weekend-2026-07-09).*
@@ -68,7 +68,7 @@ Crucially, Gemini makes the game **sharper and endlessly varied** — but it is 
 ## Try It
 
 ```bash
-git clone <your-repo> && cd grind404
+git clone https://github.com/xbill9/passion && cd passion
 docker compose up --build          # offline satire, zero keys
 # or, with AI subversion:
 GEMINI_API_KEY=your_key docker compose up --build
